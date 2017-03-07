@@ -1,0 +1,23 @@
+//
+//  BlueHeader.pch
+//  BLEProject
+//
+//  Created by jp on 2016/11/12.
+//  Copyright © 2016年 jp. All rights reserved.
+//
+
+#ifndef BlueHeader_pch
+#define BlueHeader_pch
+
+#import "MacroHeader.h"
+
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <BluetoothFoundation/BluetoothFoundation.h>
+
+
+//Tool
+#import "UIView+Frame.h"
+#import "JPProgressHUD.h"
+
+
+#endif /* BlueHeader_pch */

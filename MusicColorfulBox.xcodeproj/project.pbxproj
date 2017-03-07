@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2034DA05DFDA115AA44AEBBD /* libPods-MusicColorfulBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17DAD733108A94992236AE0 /* libPods-MusicColorfulBox.a */; };
+		3BBEAB9E1E6E83D900670B44 /* DrawModel+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBEAB9A1E6E83D900670B44 /* DrawModel+CoreDataClass.m */; };
+		3BBEAB9F1E6E83D900670B44 /* DrawModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBEAB9C1E6E83D900670B44 /* DrawModel+CoreDataProperties.m */; };
+		3BBEABA01E6E83D900670B44 /* DrawModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3BBEAB9D1E6E83D900670B44 /* DrawModel.xcdatamodel */; };
+		3BBEABA31E6E84AA00670B44 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBEABA21E6E84AA00670B44 /* DrawView.m */; };
+		3BBEABA91E6E8A3D00670B44 /* GalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBEABA71E6E8A3D00670B44 /* GalleryCell.m */; };
+		E8036BC11E6956050031D594 /* ScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BC01E6956050031D594 /* ScanVC.m */; };
+		E8036BC71E6957840031D594 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BC61E6957840031D594 /* HomeVC.m */; };
+		E8036BD61E696E430031D594 /* FMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BD51E696E430031D594 /* FMVC.m */; };
+		E8036BD91E696E5F0031D594 /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BD81E696E5F0031D594 /* DrawVC.m */; };
+		E8036BDC1E696E7A0031D594 /* GalleryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BDB1E696E7A0031D594 /* GalleryVC.m */; };
+		E8036BDF1E696FBB0031D594 /* EditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BDE1E696FBB0031D594 /* EditVC.m */; };
+		E8036BE21E696FCB0031D594 /* SceneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BE11E696FCB0031D594 /* SceneVC.m */; };
+		E8036BE51E696FDC0031D594 /* TimingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BE41E696FDC0031D594 /* TimingVC.m */; };
+		E8036BE81E696FEC0031D594 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BE71E696FEC0031D594 /* SettingVC.m */; };
+		E8036BEB1E696FFD0031D594 /* SleepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BEA1E696FFD0031D594 /* SleepVC.m */; };
+		E8036BEE1E6975950031D594 /* MusicTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8036BED1E6975950031D594 /* MusicTabbarVC.m */; };
+		E86FC27F1E6E552700F34EA0 /* UIView+RotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E86FC27E1E6E552700F34EA0 /* UIView+RotateAnimation.m */; };
+		E86FC2831E6E5FF700F34EA0 /* LMJScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E86FC2821E6E5FF700F34EA0 /* LMJScrollTextView.m */; };
+		E86FC2891E6E600000F34EA0 /* MSColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E86FC2861E6E600000F34EA0 /* MSColorUtils.m */; };
+		E86FC28A1E6E600000F34EA0 /* MSColorWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E86FC2881E6E600000F34EA0 /* MSColorWheelView.m */; };
+		E86FC28E1E6E606700F34EA0 /* JPProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E86FC28D1E6E606700F34EA0 /* JPProgressHUD.m */; };
+		E8B8D65F1E69453D0038025F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B8D65E1E69453D0038025F /* main.m */; };
+		E8B8D6621E69453D0038025F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B8D6611E69453D0038025F /* AppDelegate.m */; };
+		E8B8D6681E69453D0038025F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B8D6661E69453D0038025F /* Main.storyboard */; };
+		E8B8D66A1E69453D0038025F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B8D6691E69453D0038025F /* Assets.xcassets */; };
+		E8B8D66D1E69453E0038025F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B8D66B1E69453E0038025F /* LaunchScreen.storyboard */; };
+		E8B8D6781E69453E0038025F /* MusicColorfulBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B8D6771E69453E0038025F /* MusicColorfulBoxTests.m */; };
+		E8B8D6831E69453E0038025F /* MusicColorfulBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B8D6821E69453E0038025F /* MusicColorfulBoxUITests.m */; };
+		E8E6D4781E6D5633002F51AD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E6D4771E6D5633002F51AD /* UIView+Frame.m */; };
+		E8E6D48B1E6D56DE002F51AD /* BLEResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8E6D48A1E6D56DE002F51AD /* BLEResource.bundle */; };
+		E8E6D48D1E6D57DF002F51AD /* BluetoothFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E6D48C1E6D57DF002F51AD /* BluetoothFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8B8D6741E69453E0038025F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8B8D6521E69453D0038025F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B8D6591E69453D0038025F;
+			remoteInfo = MusicColorfulBox;
+		};
+		E8B8D67F1E69453E0038025F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8B8D6521E69453D0038025F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B8D6591E69453D0038025F;
+			remoteInfo = MusicColorfulBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BBEAB991E6E83D900670B44 /* DrawModel+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrawModel+CoreDataClass.h"; sourceTree = "<group>"; };
+		3BBEAB9A1E6E83D900670B44 /* DrawModel+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DrawModel+CoreDataClass.m"; sourceTree = "<group>"; };
+		3BBEAB9B1E6E83D900670B44 /* DrawModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrawModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3BBEAB9C1E6E83D900670B44 /* DrawModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DrawModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3BBEAB9D1E6E83D900670B44 /* DrawModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawModel.xcdatamodel; sourceTree = "<group>"; };
+		3BBEABA11E6E84AA00670B44 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		3BBEABA21E6E84AA00670B44 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		3BBEABA61E6E8A3D00670B44 /* GalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCell.h; sourceTree = "<group>"; };
+		3BBEABA71E6E8A3D00670B44 /* GalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCell.m; sourceTree = "<group>"; };
+		D703F684D9192E0CAC3117C6 /* Pods-MusicColorfulBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicColorfulBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicColorfulBox/Pods-MusicColorfulBox.debug.xcconfig"; sourceTree = "<group>"; };
+		E8036BBF1E6956050031D594 /* ScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanVC.h; sourceTree = "<group>"; };
+		E8036BC01E6956050031D594 /* ScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanVC.m; sourceTree = "<group>"; };
+		E8036BC51E6957840031D594 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		E8036BC61E6957840031D594 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		E8036BD41E696E430031D594 /* FMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMVC.h; sourceTree = "<group>"; };
+		E8036BD51E696E430031D594 /* FMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMVC.m; sourceTree = "<group>"; };
+		E8036BD71E696E5F0031D594 /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
+		E8036BD81E696E5F0031D594 /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
+		E8036BDA1E696E7A0031D594 /* GalleryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryVC.h; sourceTree = "<group>"; };
+		E8036BDB1E696E7A0031D594 /* GalleryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryVC.m; sourceTree = "<group>"; };
+		E8036BDD1E696FBB0031D594 /* EditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditVC.h; sourceTree = "<group>"; };
+		E8036BDE1E696FBB0031D594 /* EditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditVC.m; sourceTree = "<group>"; };
+		E8036BE01E696FCB0031D594 /* SceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneVC.h; sourceTree = "<group>"; };
+		E8036BE11E696FCB0031D594 /* SceneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneVC.m; sourceTree = "<group>"; };
+		E8036BE31E696FDC0031D594 /* TimingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingVC.h; sourceTree = "<group>"; };
+		E8036BE41E696FDC0031D594 /* TimingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingVC.m; sourceTree = "<group>"; };
+		E8036BE61E696FEC0031D594 /* SettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		E8036BE71E696FEC0031D594 /* SettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		E8036BE91E696FFD0031D594 /* SleepVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepVC.h; sourceTree = "<group>"; };
+		E8036BEA1E696FFD0031D594 /* SleepVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepVC.m; sourceTree = "<group>"; };
+		E8036BEC1E6975950031D594 /* MusicTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTabbarVC.h; sourceTree = "<group>"; };
+		E8036BED1E6975950031D594 /* MusicTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTabbarVC.m; sourceTree = "<group>"; };
+		E86FC27D1E6E552700F34EA0 /* UIView+RotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RotateAnimation.h"; sourceTree = "<group>"; };
+		E86FC27E1E6E552700F34EA0 /* UIView+RotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RotateAnimation.m"; sourceTree = "<group>"; };
+		E86FC2811E6E5FF700F34EA0 /* LMJScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView.h; sourceTree = "<group>"; };
+		E86FC2821E6E5FF700F34EA0 /* LMJScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJScrollTextView.m; sourceTree = "<group>"; };
+		E86FC2851E6E600000F34EA0 /* MSColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSColorUtils.h; sourceTree = "<group>"; };
+		E86FC2861E6E600000F34EA0 /* MSColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSColorUtils.m; sourceTree = "<group>"; };
+		E86FC2871E6E600000F34EA0 /* MSColorWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSColorWheelView.h; sourceTree = "<group>"; };
+		E86FC2881E6E600000F34EA0 /* MSColorWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSColorWheelView.m; sourceTree = "<group>"; };
+		E86FC28C1E6E606700F34EA0 /* JPProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPProgressHUD.h; sourceTree = "<group>"; };
+		E86FC28D1E6E606700F34EA0 /* JPProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPProgressHUD.m; sourceTree = "<group>"; };
+		E8B8D65A1E69453D0038025F /* MusicColorfulBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicColorfulBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B8D65E1E69453D0038025F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8B8D6601E69453D0038025F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8B8D6611E69453D0038025F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8B8D6671E69453D0038025F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8B8D6691E69453D0038025F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8B8D66C1E69453E0038025F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8B8D66E1E69453E0038025F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B8D6731E69453E0038025F /* MusicColorfulBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicColorfulBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B8D6771E69453E0038025F /* MusicColorfulBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicColorfulBoxTests.m; sourceTree = "<group>"; };
+		E8B8D6791E69453E0038025F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B8D67E1E69453E0038025F /* MusicColorfulBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicColorfulBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B8D6821E69453E0038025F /* MusicColorfulBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicColorfulBoxUITests.m; sourceTree = "<group>"; };
+		E8B8D6841E69453E0038025F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E6D4761E6D5633002F51AD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E8E6D4771E6D5633002F51AD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E8E6D4881E6D56CC002F51AD /* BlueHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueHeader.pch; sourceTree = "<group>"; };
+		E8E6D4891E6D56CC002F51AD /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
+		E8E6D48A1E6D56DE002F51AD /* BLEResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BLEResource.bundle; sourceTree = "<group>"; };
+		E8E6D48C1E6D57DF002F51AD /* BluetoothFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BluetoothFoundation.framework; sourceTree = "<group>"; };
+		EEB44DD11E9AA2E3F1BA4280 /* Pods-MusicColorfulBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicColorfulBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicColorfulBox/Pods-MusicColorfulBox.release.xcconfig"; sourceTree = "<group>"; };
+		F17DAD733108A94992236AE0 /* libPods-MusicColorfulBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicColorfulBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8B8D6571E69453D0038025F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6D48D1E6D57DF002F51AD /* BluetoothFoundation.framework in Frameworks */,
+				2034DA05DFDA115AA44AEBBD /* libPods-MusicColorfulBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8D6701E69453E0038025F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8D67B1E69453E0038025F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A92303CFD768011E0D5C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D703F684D9192E0CAC3117C6 /* Pods-MusicColorfulBox.debug.xcconfig */,
+				EEB44DD11E9AA2E3F1BA4280 /* Pods-MusicColorfulBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A568552E59917B71ED0827D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17DAD733108A94992236AE0 /* libPods-MusicColorfulBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8036BBB1E69559F0031D594 /* FunctionnalModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BC31E6956FB0031D594 /* View */,
+				E8036BC21E6956DD0031D594 /* ScanModule */,
+				E8036BC41E69571E0031D594 /* HomeModule */,
+				E8036BD01E696CA70031D594 /* MusicModule */,
+				E8036BC81E6961DE0031D594 /* FMModule */,
+				E8036BC91E6961E70031D594 /* DrawModule */,
+				E8036BCA1E6961F50031D594 /* GalleryModule */,
+				E8036BCB1E6962310031D594 /* EditModule */,
+				E8036BCC1E6962400031D594 /* SceneModule */,
+				E8036BCE1E6962C30031D594 /* TimingModule */,
+				E8036BCD1E69624B0031D594 /* SleepModule */,
+				E8036BCF1E6962CE0031D594 /* SettingModule */,
+			);
+			path = FunctionnalModule;
+			sourceTree = "<group>";
+		};
+		E8036BBC1E69559F0031D594 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6D4881E6D56CC002F51AD /* BlueHeader.pch */,
+				E8E6D4891E6D56CC002F51AD /* MacroHeader.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E8036BBD1E69559F0031D594 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6D48A1E6D56DE002F51AD /* BLEResource.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E8036BBE1E69559F0031D594 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E86FC28B1E6E606700F34EA0 /* JPProgressHUD */,
+				E86FC2841E6E600000F34EA0 /* ColorPicker */,
+				E86FC2801E6E5FF700F34EA0 /* LMJScrollTextView */,
+				E8E6D48C1E6D57DF002F51AD /* BluetoothFoundation.framework */,
+				E8E6D4761E6D5633002F51AD /* UIView+Frame.h */,
+				E8E6D4771E6D5633002F51AD /* UIView+Frame.m */,
+				E86FC27D1E6E552700F34EA0 /* UIView+RotateAnimation.h */,
+				E86FC27E1E6E552700F34EA0 /* UIView+RotateAnimation.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E8036BC21E6956DD0031D594 /* ScanModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BBF1E6956050031D594 /* ScanVC.h */,
+				E8036BC01E6956050031D594 /* ScanVC.m */,
+			);
+			name = ScanModule;
+			sourceTree = "<group>";
+		};
+		E8036BC31E6956FB0031D594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8D6661E69453D0038025F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8036BC41E69571E0031D594 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BC51E6957840031D594 /* HomeVC.h */,
+				E8036BC61E6957840031D594 /* HomeVC.m */,
+			);
+			name = HomeModule;
+			sourceTree = "<group>";
+		};
+		E8036BC81E6961DE0031D594 /* FMModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BD41E696E430031D594 /* FMVC.h */,
+				E8036BD51E696E430031D594 /* FMVC.m */,
+			);
+			name = FMModule;
+			sourceTree = "<group>";
+		};
+		E8036BC91E6961E70031D594 /* DrawModule */ = {
+			isa = PBXGroup;
+			children = (
+				3BBEAB991E6E83D900670B44 /* DrawModel+CoreDataClass.h */,
+				3BBEAB9A1E6E83D900670B44 /* DrawModel+CoreDataClass.m */,
+				3BBEAB9B1E6E83D900670B44 /* DrawModel+CoreDataProperties.h */,
+				3BBEAB9C1E6E83D900670B44 /* DrawModel+CoreDataProperties.m */,
+				3BBEAB9D1E6E83D900670B44 /* DrawModel.xcdatamodel */,
+				E8036BD71E696E5F0031D594 /* DrawVC.h */,
+				E8036BD81E696E5F0031D594 /* DrawVC.m */,
+				3BBEABA11E6E84AA00670B44 /* DrawView.h */,
+				3BBEABA21E6E84AA00670B44 /* DrawView.m */,
+			);
+			name = DrawModule;
+			sourceTree = "<group>";
+		};
+		E8036BCA1E6961F50031D594 /* GalleryModule */ = {
+			isa = PBXGroup;
+			children = (
+				3BBEABA61E6E8A3D00670B44 /* GalleryCell.h */,
+				3BBEABA71E6E8A3D00670B44 /* GalleryCell.m */,
+				E8036BDA1E696E7A0031D594 /* GalleryVC.h */,
+				E8036BDB1E696E7A0031D594 /* GalleryVC.m */,
+			);
+			name = GalleryModule;
+			sourceTree = "<group>";
+		};
+		E8036BCB1E6962310031D594 /* EditModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BDD1E696FBB0031D594 /* EditVC.h */,
+				E8036BDE1E696FBB0031D594 /* EditVC.m */,
+			);
+			name = EditModule;
+			sourceTree = "<group>";
+		};
+		E8036BCC1E6962400031D594 /* SceneModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BE01E696FCB0031D594 /* SceneVC.h */,
+				E8036BE11E696FCB0031D594 /* SceneVC.m */,
+			);
+			name = SceneModule;
+			sourceTree = "<group>";
+		};
+		E8036BCD1E69624B0031D594 /* SleepModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BE91E696FFD0031D594 /* SleepVC.h */,
+				E8036BEA1E696FFD0031D594 /* SleepVC.m */,
+			);
+			name = SleepModule;
+			sourceTree = "<group>";
+		};
+		E8036BCE1E6962C30031D594 /* TimingModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BE31E696FDC0031D594 /* TimingVC.h */,
+				E8036BE41E696FDC0031D594 /* TimingVC.m */,
+			);
+			name = TimingModule;
+			sourceTree = "<group>";
+		};
+		E8036BCF1E6962CE0031D594 /* SettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BE61E696FEC0031D594 /* SettingVC.h */,
+				E8036BE71E696FEC0031D594 /* SettingVC.m */,
+			);
+			name = SettingModule;
+			sourceTree = "<group>";
+		};
+		E8036BD01E696CA70031D594 /* MusicModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BEC1E6975950031D594 /* MusicTabbarVC.h */,
+				E8036BED1E6975950031D594 /* MusicTabbarVC.m */,
+				E8E6D4721E6D4EDC002F51AD /* LocalMusicModual */,
+				E8E6D4731E6D4F09002F51AD /* TFMusicModual */,
+				E8E6D4741E6D4F13002F51AD /* OnlineMusicModual */,
+			);
+			name = MusicModule;
+			sourceTree = "<group>";
+		};
+		E86FC2801E6E5FF700F34EA0 /* LMJScrollTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E86FC2811E6E5FF700F34EA0 /* LMJScrollTextView.h */,
+				E86FC2821E6E5FF700F34EA0 /* LMJScrollTextView.m */,
+			);
+			path = LMJScrollTextView;
+			sourceTree = "<group>";
+		};
+		E86FC2841E6E600000F34EA0 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E86FC2851E6E600000F34EA0 /* MSColorUtils.h */,
+				E86FC2861E6E600000F34EA0 /* MSColorUtils.m */,
+				E86FC2871E6E600000F34EA0 /* MSColorWheelView.h */,
+				E86FC2881E6E600000F34EA0 /* MSColorWheelView.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		E86FC28B1E6E606700F34EA0 /* JPProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E86FC28C1E6E606700F34EA0 /* JPProgressHUD.h */,
+				E86FC28D1E6E606700F34EA0 /* JPProgressHUD.m */,
+			);
+			path = JPProgressHUD;
+			sourceTree = "<group>";
+		};
+		E8B8D6511E69453D0038025F = {
+			isa = PBXGroup;
+			children = (
+				E8B8D65C1E69453D0038025F /* MusicColorfulBox */,
+				E8B8D6761E69453E0038025F /* MusicColorfulBoxTests */,
+				E8B8D6811E69453E0038025F /* MusicColorfulBoxUITests */,
+				E8B8D65B1E69453D0038025F /* Products */,
+				13A92303CFD768011E0D5C1C /* Pods */,
+				A568552E59917B71ED0827D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8B8D65B1E69453D0038025F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8D65A1E69453D0038025F /* MusicColorfulBox.app */,
+				E8B8D6731E69453E0038025F /* MusicColorfulBoxTests.xctest */,
+				E8B8D67E1E69453E0038025F /* MusicColorfulBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8B8D65C1E69453D0038025F /* MusicColorfulBox */ = {
+			isa = PBXGroup;
+			children = (
+				E8036BBC1E69559F0031D594 /* Helper */,
+				E8036BBD1E69559F0031D594 /* Resource */,
+				E8036BBE1E69559F0031D594 /* Tool */,
+				E8036BBB1E69559F0031D594 /* FunctionnalModule */,
+				E8B8D65D1E69453D0038025F /* Supporting Files */,
+			);
+			path = MusicColorfulBox;
+			sourceTree = "<group>";
+		};
+		E8B8D65D1E69453D0038025F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8D6601E69453D0038025F /* AppDelegate.h */,
+				E8B8D6611E69453D0038025F /* AppDelegate.m */,
+				E8B8D6691E69453D0038025F /* Assets.xcassets */,
+				E8B8D66E1E69453E0038025F /* Info.plist */,
+				E8B8D66B1E69453E0038025F /* LaunchScreen.storyboard */,
+				E8B8D65E1E69453D0038025F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8B8D6761E69453E0038025F /* MusicColorfulBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8D6771E69453E0038025F /* MusicColorfulBoxTests.m */,
+				E8B8D6791E69453E0038025F /* Info.plist */,
+			);
+			path = MusicColorfulBoxTests;
+			sourceTree = "<group>";
+		};
+		E8B8D6811E69453E0038025F /* MusicColorfulBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8D6821E69453E0038025F /* MusicColorfulBoxUITests.m */,
+				E8B8D6841E69453E0038025F /* Info.plist */,
+			);
+			path = MusicColorfulBoxUITests;
+			sourceTree = "<group>";
+		};
+		E8E6D4721E6D4EDC002F51AD /* LocalMusicModual */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LocalMusicModual;
+			sourceTree = "<group>";
+		};
+		E8E6D4731E6D4F09002F51AD /* TFMusicModual */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TFMusicModual;
+			sourceTree = "<group>";
+		};
+		E8E6D4741E6D4F13002F51AD /* OnlineMusicModual */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OnlineMusicModual;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8B8D6591E69453D0038025F /* MusicColorfulBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B8D6871E69453E0038025F /* Build configuration list for PBXNativeTarget "MusicColorfulBox" */;
+			buildPhases = (
+				9A6B42FFE79500EDD2DB4D4A /* [CP] Check Pods Manifest.lock */,
+				E8B8D6561E69453D0038025F /* Sources */,
+				E8B8D6571E69453D0038025F /* Frameworks */,
+				E8B8D6581E69453D0038025F /* Resources */,
+				F74D84D347D76CF3737EBE14 /* [CP] Embed Pods Frameworks */,
+				88F95C4CFF6AFB5066C51A65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicColorfulBox;
+			productName = MusicColorfulBox;
+			productReference = E8B8D65A1E69453D0038025F /* MusicColorfulBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8B8D6721E69453E0038025F /* MusicColorfulBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B8D68A1E69453E0038025F /* Build configuration list for PBXNativeTarget "MusicColorfulBoxTests" */;
+			buildPhases = (
+				E8B8D66F1E69453E0038025F /* Sources */,
+				E8B8D6701E69453E0038025F /* Frameworks */,
+				E8B8D6711E69453E0038025F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B8D6751E69453E0038025F /* PBXTargetDependency */,
+			);
+			name = MusicColorfulBoxTests;
+			productName = MusicColorfulBoxTests;
+			productReference = E8B8D6731E69453E0038025F /* MusicColorfulBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8B8D67D1E69453E0038025F /* MusicColorfulBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B8D68D1E69453E0038025F /* Build configuration list for PBXNativeTarget "MusicColorfulBoxUITests" */;
+			buildPhases = (
+				E8B8D67A1E69453E0038025F /* Sources */,
+				E8B8D67B1E69453E0038025F /* Frameworks */,
+				E8B8D67C1E69453E0038025F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B8D6801E69453E0038025F /* PBXTargetDependency */,
+			);
+			name = MusicColorfulBoxUITests;
+			productName = MusicColorfulBoxUITests;
+			productReference = E8B8D67E1E69453E0038025F /* MusicColorfulBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8B8D6521E69453D0038025F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sancochip;
+				TargetAttributes = {
+					E8B8D6591E69453D0038025F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B4WJ5UPLLC;
+						ProvisioningStyle = Automatic;
+					};
+					E8B8D6721E69453E0038025F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B4WJ5UPLLC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8B8D6591E69453D0038025F;
+					};
+					E8B8D67D1E69453E0038025F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B4WJ5UPLLC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8B8D6591E69453D0038025F;
+					};
+				};
+			};
+			buildConfigurationList = E8B8D6551E69453D0038025F /* Build configuration list for PBXProject "MusicColorfulBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8B8D6511E69453D0038025F;
+			productRefGroup = E8B8D65B1E69453D0038025F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8B8D6591E69453D0038025F /* MusicColorfulBox */,
+				E8B8D6721E69453E0038025F /* MusicColorfulBoxTests */,
+				E8B8D67D1E69453E0038025F /* MusicColorfulBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8B8D6581E69453D0038025F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B8D66D1E69453E0038025F /* LaunchScreen.storyboard in Resources */,
+				E8E6D48B1E6D56DE002F51AD /* BLEResource.bundle in Resources */,
+				E8B8D66A1E69453D0038025F /* Assets.xcassets in Resources */,
+				E8B8D6681E69453D0038025F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8D6711E69453E0038025F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8D67C1E69453E0038025F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88F95C4CFF6AFB5066C51A65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicColorfulBox/Pods-MusicColorfulBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6B42FFE79500EDD2DB4D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F74D84D347D76CF3737EBE14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicColorfulBox/Pods-MusicColorfulBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8B8D6561E69453D0038025F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBEAB9F1E6E83D900670B44 /* DrawModel+CoreDataProperties.m in Sources */,
+				E86FC2831E6E5FF700F34EA0 /* LMJScrollTextView.m in Sources */,
+				E8036BC11E6956050031D594 /* ScanVC.m in Sources */,
+				E8036BE81E696FEC0031D594 /* SettingVC.m in Sources */,
+				E8036BE51E696FDC0031D594 /* TimingVC.m in Sources */,
+				E8036BC71E6957840031D594 /* HomeVC.m in Sources */,
+				3BBEABA31E6E84AA00670B44 /* DrawView.m in Sources */,
+				E8036BDF1E696FBB0031D594 /* EditVC.m in Sources */,
+				3BBEABA91E6E8A3D00670B44 /* GalleryCell.m in Sources */,
+				E8036BD61E696E430031D594 /* FMVC.m in Sources */,
+				E8036BD91E696E5F0031D594 /* DrawVC.m in Sources */,
+				E8B8D6621E69453D0038025F /* AppDelegate.m in Sources */,
+				E8B8D65F1E69453D0038025F /* main.m in Sources */,
+				E86FC28E1E6E606700F34EA0 /* JPProgressHUD.m in Sources */,
+				3BBEAB9E1E6E83D900670B44 /* DrawModel+CoreDataClass.m in Sources */,
+				E8036BEE1E6975950031D594 /* MusicTabbarVC.m in Sources */,
+				E8E6D4781E6D5633002F51AD /* UIView+Frame.m in Sources */,
+				E86FC27F1E6E552700F34EA0 /* UIView+RotateAnimation.m in Sources */,
+				3BBEABA01E6E83D900670B44 /* DrawModel.xcdatamodel in Sources */,
+				E86FC2891E6E600000F34EA0 /* MSColorUtils.m in Sources */,
+				E8036BDC1E696E7A0031D594 /* GalleryVC.m in Sources */,
+				E8036BEB1E696FFD0031D594 /* SleepVC.m in Sources */,
+				E86FC28A1E6E600000F34EA0 /* MSColorWheelView.m in Sources */,
+				E8036BE21E696FCB0031D594 /* SceneVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8D66F1E69453E0038025F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B8D6781E69453E0038025F /* MusicColorfulBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B8D67A1E69453E0038025F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B8D6831E69453E0038025F /* MusicColorfulBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8B8D6751E69453E0038025F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8B8D6591E69453D0038025F /* MusicColorfulBox */;
+			targetProxy = E8B8D6741E69453E0038025F /* PBXContainerItemProxy */;
+		};
+		E8B8D6801E69453E0038025F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8B8D6591E69453D0038025F /* MusicColorfulBox */;
+			targetProxy = E8B8D67F1E69453E0038025F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8B8D6661E69453D0038025F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8B8D6671E69453D0038025F /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E8B8D66B1E69453E0038025F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8B8D66C1E69453E0038025F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8B8D6851E69453E0038025F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8B8D6861E69453E0038025F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8B8D6881E69453E0038025F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D703F684D9192E0CAC3117C6 /* Pods-MusicColorfulBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MusicColorfulBox/Tool",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicColorfulBox/Helper/BlueHeader.pch";
+				INFOPLIST_FILE = MusicColorfulBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sancochip.MusicColorfulBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8B8D6891E69453E0038025F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB44DD11E9AA2E3F1BA4280 /* Pods-MusicColorfulBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MusicColorfulBox/Tool",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicColorfulBox/Helper/BlueHeader.pch";
+				INFOPLIST_FILE = MusicColorfulBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sancochip.MusicColorfulBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8B8D68B1E69453E0038025F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
+				INFOPLIST_FILE = MusicColorfulBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sancochip.MusicColorfulBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicColorfulBox.app/MusicColorfulBox";
+			};
+			name = Debug;
+		};
+		E8B8D68C1E69453E0038025F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
+				INFOPLIST_FILE = MusicColorfulBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sancochip.MusicColorfulBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicColorfulBox.app/MusicColorfulBox";
+			};
+			name = Release;
+		};
+		E8B8D68E1E69453E0038025F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
+				INFOPLIST_FILE = MusicColorfulBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sancochip.MusicColorfulBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicColorfulBox;
+			};
+			name = Debug;
+		};
+		E8B8D68F1E69453E0038025F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
+				INFOPLIST_FILE = MusicColorfulBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sancochip.MusicColorfulBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicColorfulBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8B8D6551E69453D0038025F /* Build configuration list for PBXProject "MusicColorfulBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B8D6851E69453E0038025F /* Debug */,
+				E8B8D6861E69453E0038025F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B8D6871E69453E0038025F /* Build configuration list for PBXNativeTarget "MusicColorfulBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B8D6881E69453E0038025F /* Debug */,
+				E8B8D6891E69453E0038025F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B8D68A1E69453E0038025F /* Build configuration list for PBXNativeTarget "MusicColorfulBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B8D68B1E69453E0038025F /* Debug */,
+				E8B8D68C1E69453E0038025F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B8D68D1E69453E0038025F /* Build configuration list for PBXNativeTarget "MusicColorfulBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B8D68E1E69453E0038025F /* Debug */,
+				E8B8D68F1E69453E0038025F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8B8D6521E69453D0038025F /* Project object */;
+}
